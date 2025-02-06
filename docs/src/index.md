@@ -3,7 +3,7 @@
 *TreeKnit* is a julia package that performs inference of reassortment events in segmented genomes, such as human influenza. Additionally, it can reconstruct Ancestral Reassortment Graphs for segment pairs. 
 ## Installation
 
-*TreeKnit* requires Julia version 1.7, it may not work with higher or lower versions. You can get it from [here](https://julialang.org/downloads/), or use a conda environment.
+*TreeKnit* requires Julia version 1.7, it may not work with higher or lower versions. You can get v1.7.3 of Julia [here]([https://julialang.org/downloads/](https://julialang.org/downloads/oldreleases/#:~:text=v1.7.3)). Alternatively, you can install julia 1.7.3 into a conda environment.
 
 You can install *TreeKnit* using the julia package manager: 
 ```julia
