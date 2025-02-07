@@ -33,7 +33,7 @@ We suggest two sets of defaults for running TreeKnit. `--better-trees` will prod
 - `-v, --verbose`: set verbosity to 1
 - `--auspice-view`: return ouput files for auspice
 """
-@main function treeknit(
+Comonicon.@main function treeknit(
 	nwk_file1::AbstractString, nwk_file2::AbstractString, nwk_files::AbstractString...;
 	# options
 	outdir::AbstractString = "treeknit_results",
